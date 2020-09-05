@@ -7,6 +7,8 @@ end
 end
 
 def list_dwarves(dwarves_array)
-  dwarves_array.each.with_index(1) puts{|dwarves,index|}
+  dwarves_array.each.with_index(1) do |dwarves,index|
+    #here is where the puts goes
+  end
 
 end
