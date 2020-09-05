@@ -7,7 +7,7 @@ end
 end
 
 def list_dwarves(dwarves_array)
-  dwarves_array.each_with_index(1){|dwarves,index|}
+  dwarves_array.each.with_index(1){|dwarves,index|}
   dwarves_array
   
 end
