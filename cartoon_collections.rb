@@ -7,6 +7,6 @@ end
 end
 
 def list_dwarves(dwarves_array)
-  dwarves_array
+  dwarves_array(String){
  
 end
