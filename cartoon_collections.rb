@@ -4,7 +4,6 @@ characters_array.each do |character|
    puts "Hello #{characters_array}!"
   
 end 
-
 end
 
 def list_dwarves(array)
