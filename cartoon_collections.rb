@@ -7,6 +7,8 @@ end
 end
 
 def list_dwarves(dwarves_array)
-  dwarves_array(String){|object,index|}
+  dwarves_array.each_with_index(String){|dwarves,index|}
+  dwarves_array
+  
  
 end
