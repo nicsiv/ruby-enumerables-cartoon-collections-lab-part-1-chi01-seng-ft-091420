@@ -10,5 +10,4 @@ def list_dwarves(dwarves_array) do
   dwarves_array.each_with_index(1){|dwarves,index|}
   dwarves_array
   
- end
 end
